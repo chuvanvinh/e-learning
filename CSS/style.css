@@ -74,3 +74,219 @@ a {
   background: #1ebfc1;
   color: #fff;
 }
+/* =========================Phần Hero============================================= */
+.hero {
+  padding: 42px 0 8px;
+}
+.hero .body {
+  display: flex;
+  justify-content: space-between;
+}
+/* phần trái */
+.hero .phan-trai .desc {
+  margin-top: 93px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero .phan-trai .heading {
+  width: 458px;
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+}
+.hero .phan-trai .desc-1 {
+  width: 374px;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.78;
+}
+.hero .phan-trai .action {
+  display: flex;
+  margin-top: 52px;
+}
+.hero .phan-trai .get-started {
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .phan-trai .get-started:hover {
+  background: #1ebfc1;
+  color: #fff;
+}
+.hero .phan-trai .icon {
+  width: 62px;
+  height: 62px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* phần phải */
+.hero .phan-phai .backround {
+  background: #e0f7f6;
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
+.hero .phan-phai {
+  position: relative;
+  width: 50%;
+}
+.hero .item1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .item1::after {
+  position: absolute;
+  top: 45px;
+  left: 29px;
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 4px;
+  background: #fff;
+  border-radius: 999px;
+}
+.hero .item1 .icon {
+  width: 36px;
+  height: 40px;
+}
+.hero .item1 .desc {
+  width: 55px;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+/* item 2 */
+
+.hero .item2 {
+  position: absolute;
+  top: 453px;
+  left: -65px;
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .item2 .desc {
+  display: inline-block;
+  margin: 16px 35px 0;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero .item2 .icon {
+  margin: 16px 25px 0;
+  display: block;
+  width: 74px;
+  height: 6px;
+  border-radius: 3px;
+  background: #edf1f5;
+}
+
+.hero .item2 .icon2 {
+  margin-top: 12px;
+}
+
+.hero .item2 .icon3 {
+  margin-top: 10px;
+}
+
+.hero .item2 .icon4 {
+  margin: 16px 49px auto;
+  text-align: center;
+  width: 26px;
+  height: 6px;
+}
+/* item 3 */
+.hero .phan-phai .item3 {
+  position: absolute;
+  top: 500px;
+  left: 324px;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .ava-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .ava-list .ava {
+  margin-top: 8px;
+  margin-left: -7px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.hero .ava-list .ava:first-child {
+  margin-left: 0;
+}
+
+.hero .item3 .desc {
+  display: inline-block;
+  margin: 17px 35px 0;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero .item3 .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ebfc1;
+}
+
+.hero .more span {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
