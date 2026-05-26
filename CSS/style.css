@@ -117,6 +117,7 @@ a {
 }
 .hero .phan-trai .get-started {
   width: 186px;
+  font-size: 1.8rem;
   height: 68px;
   border-radius: 14px;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
@@ -288,5 +289,458 @@ a {
   font-family: Poppins;
   font-size: 1rem;
   font-weight: 500;
+  line-height: normal;
+}
+/* Phần features */
+.features .body {
+  margin-top: 209px;
+  width: 1024px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.phan-tren {
+  width: 590px;
+}
+.phan-tren .title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.phan-tren .heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.33;
+}
+.phan-tren .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.features .phan-duoi {
+  margin-top: 80px;
+  display: flex;
+}
+.features .phan-duoi .icon {
+  width: 102px;
+  height: 106px;
+}
+.features .phan-duoi .item-1 {
+  margin-right: 209px;
+}
+.phan-duoi .item-1 .title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.phan-duoi .item-1 .desc {
+  width: 168px;
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.69;
+}
+/* item 2 */
+.features .phan-duoi .item-2 {
+  margin-right: 200px;
+}
+.phan-duoi .item-2 .title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.phan-duoi .item-2 .desc {
+  width: 223px;
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.69;
+}
+/* item 3 */
+.phan-duoi .item-3 .title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.phan-duoi .item-3 .desc {
+  width: 224px;
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.69;
+}
+/* phần Coures */
+.course {
+  margin-top: 130px;
+}
+.course .phan-tren {
+  width: 100%;
+}
+.course .phan-tren .title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course .phan-tren .heading {
+  color: #0d1111;
+  margin-top: 18px;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course .phan-tren .action {
+  display: flex;
+  margin-top: 19px;
+  justify-content: space-between;
+  align-items: center;
+}
+.course .phan-tren .desc {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.78;
+}
+.course .phan-tren .action-view {
+  color: #1ebfc1;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.course .phan-tren .action-view:hover {
+  color: #fff;
+}
+.course .phan-duoi {
+  margin-top: 79px;
+  width: 100%;
+  gap: 47px;
+  display: flex;
+}
+.course .phan-duoi .bgr {
+  position: relative;
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  opacity: 0.35;
+  background: #d0efed;
+}
+.course .phan-duoi .info {
+  overflow: hidden;
+  position: absolute;
+  top: 332px;
+  right: 17px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+.course .phan-duoi .group {
+  margin-top: 18px;
+  margin-left: 25px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.course .phan-duoi .group img {
+  display: block;
+  width: 6px;
+  height: 6px;
+}
+.course .phan-duoi .group .desc {
+  margin: 0;
+}
+.course .phan-duoi .title {
+  color: #0d1111;
+  margin-top: 18px;
+  margin-left: 25px;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course .phan-duoi .cost {
+  color: #767e7e;
+  margin-top: 16px;
+  margin-left: 25px;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.course .phan-duoi strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course .phan-duoi .desc {
+  color: #9da6a5;
+  width: 218px;
+  margin-top: 6px;
+  margin-left: 25px;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.course .phan-duoi .img {
+  position: relative;
+}
+/* phần feed back */
+.feedback {
+  margin-top: 227px;
+}
+
+.feedback .body {
+  position: relative;
+  padding: 37px 0;
+  /* background: aqua; */
+}
+
+.feedback blockquote {
+  max-width: 419px;
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.feedback .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.feedback .desc::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+.feedback .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feedback .feedback-cta {
+  margin-left: -30px;
+  display: flex;
+  margin-top: 52px;
+  display: flex;
+}
+
+.feedback .feedback-cta .cta-btn-group {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+}
+
+.feedback .feedback-cta .cta-btn-group:hover {
+  opacity: 0.9;
+  border: 1px solid rgba(207, 20, 195, 0.219);
+  transition: 0.5s;
+}
+
+.feedback .ava-fb {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+
+.feedback .avar-fb-1 {
+  left: 635px;
+  top: 0;
+  width: 92px;
+  height: 92px;
+}
+
+.feedback .avar-fb-2 {
+  width: 110px;
+  height: 110px;
+  /* right: 0; */
+  left: 1060px;
+  top: 19px;
+}
+
+.feedback .avar-fb-3 {
+  width: 235px;
+  height: 235px;
+  top: 107px;
+  left: 764px;
+}
+
+.feedback .avar-fb-4 {
+  top: 258px;
+  left: 491px;
+}
+
+.feedback .avar-fb-5 {
+  top: 403px;
+  left: 703px;
+}
+
+.feedback .avar-fb-6 {
+  top: 374px;
+  left: 1060px;
+}
+/* phần count down */
+.count-down .body {
+  display: flex;
+  margin-top: 389px;
+  margin-left: 156px;
+  width: 862px;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-down .title {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.count-down .desc {
+  color: #767e7e;
+  margin-top: 11px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* phần cta */
+.cta {
+  margin-top: 130px;
+  background: #def6f5;
+}
+.cta .body {
+  padding: 76px 0 88px;
+  display: flex;
+}
+.cta .heading {
+  color: #070707;
+  width: 420px;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cta .desc {
+  color: #767e7e;
+  width: 397px;
+  margin-top: 18px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cta .btn {
+  margin-left: 410px;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2ac9bf;
+}
+.cta a {
+  width: 186px;
+  font-size: 1.8rem;
+  height: 68px;
+  border-radius: 14px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #1ebfc1;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .top-row {
+  display: flex;
+  margin-top: 130px;
+  justify-content: space-between;
+}
+.footer .top-row .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer li:first-child {
+  margin-top: 26px;
+}
+.footer .column-5 a {
+  display: flex;
+  align-items: center;
+}
+
+.footer ul img {
+  margin-right: 9px;
+}
+.footer .bot-row .desc {
+  margin-top: 80px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
